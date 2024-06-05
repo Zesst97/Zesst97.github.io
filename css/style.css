@@ -1,0 +1,765 @@
+@font-face {
+    font-family: "TTLakesBold"; 
+    src: url("/fonts/TTLakes-Bold.eot"); 
+    src: url("/fonts/TTLakes-Bold.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/TTLakes-Bold.woff") format("woff"), 
+    url("/fonts/TTLakes-Bold.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+@font-face {
+    font-family: "TTLakesRegular"; 
+    src: url("/fonts/TTLakes-Regular.eot"); 
+    src: url("/fonts/TTLakes-Regular.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/TTLakes-Regular.woff") format("woff"), 
+    url("/fonts/TTLakes-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (min-width: 1121px) {
+* {
+    margin: 0;
+}
+        
+@font-face {
+    font-family: "TTLakesBold"; 
+    src: url("/fonts/TTLakes-Bold.eot"); 
+    src: url("/fonts/TTLakes-Bold.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/TTLakes-Bold.woff") format("woff"), 
+    url("/fonts/TTLakes-Bold.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+    
+@font-face {
+    font-family: "TTLakesRegular"; 
+    src: url("/fonts/TTLakes-Regular.eot"); 
+    src: url("/fonts/TTLakes-Regular.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/TTLakes-Regular.woff") format("woff"), 
+    url("/fonts/TTLakes-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+    
+body {
+    background-color: #F8F8F8;
+    width: 1120px;
+    height: 535px;
+}
+        
+header {
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding-top: 42px;
+}
+              
+.left-side {
+    display: none;
+}
+        
+.center-side {
+    display: none;
+}
+              
+.right-side {
+    display: flex;
+    align-items: center;
+}
+        
+.right-side__item {
+    margin-right: 32px;
+}
+        
+.right-side__item:nth-child(1)::before {
+    content: "Оставить заявку";
+    font-family: "TTLakesMedium", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.20000000298023224px;
+    margin-right: 8px;
+}
+        
+.right-side__item:nth-child(1) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+        
+.right-side__item:nth-child(2)::before {
+    content: "Статус ремонта";
+    font-family: "TTLakesMedium", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.20000000298023224px;
+    margin-right: 8px;
+}
+    
+.right-side__item:nth-child(2) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+        
+.title {
+    display: flex;
+    background-color: #F8F8F8;
+}
+        
+.title__highlight {
+    padding: 0;
+}
+        
+.title__text {
+    font-family: "TTLakesBold", sans-serif;
+    margin-left: 30px;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: -0.6px;
+}
+        
+.slide-menu {
+    display: flex;
+    width: 1063px;
+    overflow: scroll;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 32px;
+}
+        
+.slide-menu::-webkit-scrollbar {
+    display: none; 
+}
+        
+.slide-menu__item {
+    font-family: "TTLakesMedium", sans-serif;
+    display: flex;
+    font-size: 16px;
+    line-height: 24px;
+    height: 40px;
+    letter-spacing: -0.2px;
+    color: #7E7E82;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    margin-top: 8px;
+    border: 2px solid transparent;
+    border-radius: 6px;         
+    padding: 0 15px;   
+}
+    
+.slide-menu__text {
+    text-decoration: none;
+}
+    
+.slide-menu__text:link {
+    color:#7E7E82
+}
+
+.slide-menu__text:visited {
+    color: #7E7E82
+}
+                
+.slide-menu__item:hover {
+    border-color: #B8FFEC;
+    background-color: white;
+}
+        
+.content {
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100%;            
+}  
+
+.content__text {
+    font-family: "TTLakesMedium", sans-serif;
+    color: #1B1C21;
+    padding: 0;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    margin: 16px 0px 10px 34px;
+    width: 490px;
+    height: 160px;
+}
+        
+.content__image {
+    width: 531.35px;
+    height: 307px;
+    margin-top: 7px;
+    margin-right: 28.65px;
+    border-radius: 2%;
+}
+        
+.read-next {
+    display: flex;
+}
+        
+.read-next__icon {
+    margin-top: 10px;
+}
+        
+.read-next__text {
+    font-family: "TTLakesMedium", sans-serif;
+    margin: 10px 8px 16px 0px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.20000000298023224px;
+}
+        
+        
+}
+
+@media screen and (max-width: 320px) {
+*{
+    margin: 0 auto;
+}
+
+main {
+    background-color: #F8F8F8;
+    width: 320px;
+    height: 509px;
+}
+
+.header {
+    background-color: white;
+}
+
+.header {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 88px;
+}
+
+.left-side {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-side__item:nth-child(1) {
+    margin-left: 16px;
+    margin-right: 16.73px;
+}
+
+.left-side::after {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 32px;
+    border-radius: 1px;
+    background-color: #EAEAEA;
+    margin: 28px 20px 28px 16.73px;
+}   
+
+.center-side {
+    display: none;
+}
+
+.right-side {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-side__item {
+    margin-right: 16px;
+}
+
+.title {
+    display: flex;
+    background-color: #F8F8F8;
+    width: 320px;
+}
+
+.title__highlight {
+    padding: 0;
+    margin: 24px 0 0 0;
+}
+
+.title__text {
+    font-family: "TTLakesBold", sans-serif;
+    margin-left: 12px;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: -0.6px;
+    margin-top: 24px;
+}
+
+.slide-menu {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.slide-menu::-webkit-scrollbar {
+    display: none; 
+}
+
+.slide-menu__item {
+    font-family: "TTLakesMedium", sans-serif;
+    display: flex;
+    font-size: 16px;
+    line-height: 24px;
+    height: 40px;
+    letter-spacing: -0.2px;
+    color: #7E7E82;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    margin-top: 8px;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    padding: 0 15px;  
+}
+
+.slide-menu__text {
+    text-decoration: none;
+}
+
+.slide-menu__text:link {
+    color:#7E7E82
+}
+
+.slide-menu__text:visited {
+    color: #7E7E82
+}
+
+.slide-menu__item:hover {
+    border-color: #B8FFEC;
+    background-color: white;
+}
+
+.content {
+    width: 320px;
+    height: 322px;
+}
+
+.content__text {
+    font-family: "TTLakesMedium", sans-serif;
+    color: #1B1C21;
+    margin-top: 24px;
+    padding: 0px 16px 16px 16px;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.2px;  
+}
+
+.hidden-first {
+    display: none;
+}
+
+.hidden-second {
+    display: none;
+}
+
+.content__read-next {
+    display: flex;
+}
+
+.read-next__icon {
+    margin: 16px 8px 0px 16px;
+}
+
+.read-next__text {
+    font-family: "TTLakesNormal", sans-serif;
+    margin: 16px 8px 0px 0px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+}
+
+.content__image {
+    width: 320px;
+    height: 176px;
+}
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+* {
+    margin: 0 ;
+}
+
+main {
+    background-color: #F8F8F8;
+    width: 768px;
+    height: 416px;
+}
+   
+.header {
+    display: inline-flex;
+    align-items: center;
+    width: 768px;
+    height: 88px;
+    justify-content: space-between;
+    background-color: white;
+}
+   
+.left-side {
+    display: inline-flex;
+    align-items: center;
+}
+
+.left-side__item:nth-child(1) {
+    margin-left: 24px;
+}
+
+.left-side__item:nth-child(1)::after {
+    content: "";
+    display: inline-block;
+    width: 2px;
+    height: 32px;
+    border-radius: 1px;
+    background-color: #EAEAEA;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+   
+.center-side {
+    display: inline-flex;
+    align-items: center;
+    margin-left: auto;
+}
+   
+.center-side__item {
+    margin-right: 16px;
+}
+   
+.center-side__item:nth-child(3) {
+    margin-right: 0px;
+}
+   
+.center-side__item:nth-child(3)::after {
+    content: "";
+    display: inline-block;
+    width: 3px;
+    height: 32px;
+    border-radius: 1px;
+    background-color: #EAEAEA;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+   
+.right-side {
+    display: inline-flex;
+    align-items: center;
+}
+   
+.right-side__item {
+    margin-right: 16px;
+}
+   
+.right-side__item:nth-child(2) {
+    margin-right: 24px;
+}
+   
+.title {
+    display: flex;
+    width: 768px;
+    background-color: #F8F8F8;
+}
+   
+.title__highlight {
+    padding: 0;
+    margin-top: 24px;
+}
+   
+.title__text {
+    font-family: "TTLakesBold", sans-serif;
+    margin-left: 12px;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: -0.6px;
+    margin-top: 24px;
+}
+.slide-menu {
+    display: flex;
+    overflow: scroll;
+}
+   
+.slide-menu::-webkit-scrollbar {
+    display: none; 
+}
+   
+.slide-menu__item {
+    font-family: "TTLakesMedium", sans-serif;
+    display: flex;
+    font-size: 16px;
+    line-height: 24px;
+    height: 40px;
+    letter-spacing: -0.2px;
+    color: #7E7E82;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    margin-top: 8px;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    padding: 0 15px;
+}
+   
+.slide-menu__text {
+    text-decoration: none;
+}
+   
+.slide-menu__text:link {
+    color:#7E7E82
+}
+
+.slide-menu__text:visited {
+    color: #7E7E82
+}
+   
+.slide-menu__text {
+    text-decoration: none;
+}
+   
+.slide-menu__text:link {
+    color:#7E7E82
+}
+
+.slide-menu__text:visited {
+    color: #7E7E82
+}
+   
+.slide-menu__item:hover {
+    border-color: #B8FFEC;
+    background-color: white;
+}
+   
+.content {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 769px;
+    height: 416px;
+}      
+   
+.hidden-second {
+    display: none;
+}
+   
+.content__text {
+    font-family: "TTLakesMedium", sans-serif;
+    color: #1B1C21;
+    padding: 0;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    width: 312px;
+    height: 160px;
+    margin: 34px 0px 10px 24px;
+}
+   
+.content__image {
+    width: 360px;
+    height: 208px;
+    margin-top: 34px;
+    margin-right: 25px;
+    border-radius: 2%;
+}
+   
+.read-next {
+    display: inline-flex;
+}
+   
+.read-next__icon {
+    margin-top: 10px;
+}
+   
+.read-next__text {
+    font-family: "TTLakesMedium", sans-serif;
+    margin: 10px 8px 16px 0px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.20000000298023224px;
+}
+
+} 
+
+@media screen and (min-width: 769px) and (max-width: 1120px) {
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #F8F8F8;
+    width: 1120px;
+    height: 535px;
+}
+     
+header {
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding-top: 42px;
+}
+         
+.left-side {
+    display: none;
+}
+     
+.center-side {
+    display: none;
+}
+     
+     
+.right-side {
+    display: flex;
+    align-items: center;
+}
+     
+.right-side__item {
+    margin-right: 32px;
+}
+     
+.right-side__item:nth-child(1)::before {
+    content: "Оставить заявку";
+    font-family: "TTLakesMedium", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.20000000298023224px;
+    margin-right: 8px;
+}
+     
+.right-side__item:nth-child(1) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+     
+.right-side__item:nth-child(2)::before {
+    content: "Статус ремонта";
+    font-family: "TTLakesMedium", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.20000000298023224px;
+    margin-right: 8px;
+}
+     
+.right-side__item:nth-child(2) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+     
+.title {
+    display: flex;
+    background-color: #F8F8F8;
+}
+     
+.title__highlight {
+    padding: 0;
+}
+     
+.title__text {
+    font-family: "TTLakesBold", sans-serif;
+    margin-left: 30px;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: -0.6px;
+}
+     
+.slide-menu {
+    display: inline-flex;
+    overflow: scroll;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+     
+.slide-menu::-webkit-scrollbar {
+    display: none; 
+}
+     
+.slide-menu__item {
+    font-family: "TTLakesMedium", sans-serif;
+    display: flex;
+    font-size: 16px;
+    line-height: 24px;
+    height: 40px;
+    letter-spacing: -0.2px;
+    color: #7E7E82;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    margin-top: 8px;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    padding: 0 15px;
+}
+ 
+.slide-menu__text {
+    text-decoration: none;
+}
+ 
+.slide-menu__text:link {
+    color:#7E7E82
+}
+
+.slide-menu__text:visited {
+    color: #7E7E82
+}
+     
+.slide-menu__item:hover {
+    border-color: #B8FFEC;
+    background-color: white;
+}
+     
+.content {
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100%;
+}    
+
+.content__text {
+    font-family: "TTLakesMedium", sans-serif;
+    color: #1B1C21;
+    padding: 0;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    margin: 16px 0px 10px 34px;
+    width: 490px;
+    height: 160px;
+}
+     
+.content__image {
+    width: 531.35px;
+    height: 307px;
+    margin-top: 7px;
+    margin-right: 28.65px;
+    border-radius: 2%;
+}
+     
+.read-next {
+    display: flex;
+}
+     
+.read-next__icon {
+    margin-top: 10px;
+}
+     
+.read-next__text {
+    font-family: "TTLakesMedium", sans-serif;
+    margin: 10px 8px 16px 0px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.20000000298023224px;
+             
+}
+     
+     
+ }
