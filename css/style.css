@@ -7,7 +7,6 @@
     font-style: normal; 
     font-weight: normal; 
 }
-
 @font-face {
     font-family: "TTLakesRegular"; 
     src: url("/fonts/TTLakes-Regular.eot"); 
@@ -39,7 +38,9 @@ main {
     height: 509px;
 }
 
-
+.header-two{
+    display: none;
+}
 
 .header__menu{
     display: inline-flex;
@@ -243,6 +244,10 @@ header {
     justify-content: space-between;
     padding-top: 42px;
 }
+
+.header-fist{
+    display: none;
+}
               
 .left-side {
     display: none;
@@ -418,6 +423,10 @@ main {
     background-color: #F8F8F8;
     width: 768px;
     height: 416px;
+}
+
+.header-two{
+    display: none;
 }
    
 .header__menu {
@@ -640,6 +649,10 @@ header {
     flex-direction: row-reverse;
     justify-content: space-between;
     padding-top: 42px;
+}
+
+.header-two{
+    display: none;
 }
        
 .left-side {
