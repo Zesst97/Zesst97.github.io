@@ -7,26 +7,25 @@
   <title>Сервисный центр CPS</title>
 </head>
 <body>
-<header>
-    <div class="header">
+<header class="header">
+    <div class="header__menu">
       <div class="header__left-side left-side">
-          <div class="left-side__item"><img src="/icons/burger.svg" alt="Бургер"></div>
-          <div class="left-side__item"><img src="/icons/Group.svg" alt="Logo CPS"></div>
-      </div>
-      <div class="header__center-side center-side">
-          <div class="center-side__item"><img src="/icons/call.svg" alt="Заказать звонок"></div>
-          <div class="center-side__item"><img src="/icons/chat.svg" alt="Написать в поддержку"></div>
-          <div class="center-side__item"><img src="/icons/profile.svg" alt="Профиль"></div>
-      </div>
-      <div class="header__right-side right-side">
-          <div class="right-side__item"><img src="/icons/repair.svg" alt="Статус ремонта"></div>
-          <div class="right-side__item"><img src="/icons/checkstatus.svg" alt="Оставить заявку"></div>
-      </div>
+        <button class="left-side__item"><img src="/icons/burger.svg" alt="Бургер"></button>
+        <a class="left-side__item"><img src="/icons/Group.svg" alt="Logo CPS"></a>
     </div>
-    <article class="title">
-      <div class="title__highlight"><img src="/icons/highlight.svg" alt="Стрелка вниз"></div>
-      <div class="title__text">Услуги и сервисы</div>
-    </article>
+    <div class="header__center-side center-side">
+        <button class="center-side__item"><img src="/icons/call.svg" alt="Заказать звонок"></button>
+        <button class="center-side__item"><img src="/icons/chat.svg" alt="Написать в поддержку"></button>
+        <button class="center-side__item"><img src="/icons/profile.svg" alt="Профиль"></button>
+    </div>
+    <div class="header__right-side right-side">
+        <button class="right-side__item"><img src="/icons/repair.svg" alt="Статус ремонта"></button>
+        <button class="right-side__item"><img src="/icons/checkstatus.svg" alt="Оставить заявку"></button>
+    </div>
+  </div>
+  <article class="title">
+    <h1 class="title__text title--before">Услуги и сервисы</h1>
+  </article>
 </header>
 
 <main>
@@ -48,9 +47,9 @@
           <div class="read-next__icon">
               <img src="/icons/expand.svg" alt="Читать далее">
           </div>
-          <div class="read-next__text">
+          <button class="read-next__text">
               Читать далее
-          </div>
+          </button>
       </div>
     </div>
     <img src="/img/cps.png" alt="Лого CPS" class="content__image logo">
