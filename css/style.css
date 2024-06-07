@@ -64,7 +64,7 @@ main {
 .left-side::after {
     content: "";
     display: block;
-    width: 2px;
+    width: 3px;
     height: 32px;
     border-radius: 1px;
     background-color: #EAEAEA;
@@ -450,7 +450,7 @@ main {
 .left-side__item:nth-child(1)::after {
     content: "";
     display: inline-block;
-    width: 2px;
+    width: 3px;
     height: 32px;
     border-radius: 1px;
     background-color: #EAEAEA;
