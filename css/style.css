@@ -23,6 +23,11 @@
     margin: 0;
 }
 
+button{
+    border: none;
+    background: none;
+}
+
 @media screen and (max-width: 320px) {
 *{
     margin: 0 auto;
@@ -34,11 +39,9 @@ main {
     height: 509px;
 }
 
-.header {
-    background-color: white;
-}
 
-.header {
+
+.header__menu{
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -94,11 +97,21 @@ main {
 
 .title__text {
     font-family: "TTLakesBold", sans-serif;
-    margin-left: 12px;
     font-size: 28px;
     line-height: 40px;
     letter-spacing: -0.6px;
-    margin-top: 24px;
+    margin: 24px 0 0 12px;
+}
+
+.title--before::before{
+    position: absolute;
+    content: "";
+    display: block; 
+    width: 4px;
+    height: 40px;
+    background-color: #41F6D7;
+    border-radius: 2px;
+    margin: 0 0 0 -13px;
 }
 
 .slide-menu {
@@ -294,6 +307,17 @@ header {
     line-height: 40px;
     letter-spacing: -0.6px;
 }
+
+.title--before::before{
+    position: absolute;
+    content: "";
+    display: block; 
+    width: 4px;
+    height: 40px;
+    background-color: #41F6D7;
+    border-radius: 2px;
+    margin: 0 0 0 -13px;
+}
         
 .slide-menu {
     display: flex;
@@ -396,7 +420,7 @@ main {
     height: 416px;
 }
    
-.header {
+.header__menu {
     display: inline-flex;
     align-items: center;
     width: 768px;
@@ -482,6 +506,18 @@ main {
     letter-spacing: -0.6px;
     margin-top: 24px;
 }
+
+.title--before::before{
+    position: absolute;
+    content: "";
+    display: block; 
+    width: 4px;
+    height: 40px;
+    background-color: #41F6D7;
+    border-radius: 2px;
+    margin: 0 0 0 -13px;
+}
+
 .slide-menu {
     display: flex;
     overflow: scroll;
@@ -605,7 +641,7 @@ header {
     justify-content: space-between;
     padding-top: 42px;
 }
-         
+       
 .left-side {
     display: none;
 }
@@ -669,6 +705,17 @@ header {
     font-size: 28px;
     line-height: 40px;
     letter-spacing: -0.6px;
+}
+
+.title--before::before{
+    position: absolute;
+    content: "";
+    display: block; 
+    width: 4px;
+    height: 40px;
+    background-color: #41F6D7;
+    border-radius: 2px;
+    margin: 0 0 0 -13px;
 }
      
 .slide-menu {
@@ -761,4 +808,4 @@ header {
 }
      
      
- }
+} 
