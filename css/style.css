@@ -20,6 +20,7 @@
 button{
     border: none;
     background: none;
+    padding: 0;
 }
 
 body{
@@ -41,6 +42,10 @@ main {
     height: 88px;
     padding: 0 16px;
     box-sizing: border-box;
+}
+
+.header__menu{
+    border-bottom: 2px solid #d9fff5;
 }
 
 .left-side {
@@ -71,6 +76,7 @@ main {
     height: 32px;
     border-radius: 1px;
     background-color: #EAEAEA;
+    margin-left: 16.73px;
 }
 
 .title {
@@ -151,7 +157,7 @@ main {
     min-height: 100%;
 }
 
-.content__text {
+.content__section {
     font-family: "TTLakes", sans-serif;
     color: #1B1C21;
     margin-top: 24px;
@@ -159,14 +165,7 @@ main {
     font-size: 14px;
     line-height: 18px;
     letter-spacing: 0.2px;  
-}
 
-.hidden-first {
-    display: none;
-}
-
-.hidden-second {
-    display: none;
 }
 
 .content__read-next {
@@ -189,6 +188,11 @@ main {
 .content__image {
     width: 100%;
     height: 100%;
+}
+
+.content__text{
+    height: 100px;
+    overflow: hidden;
 }
 
 @media (min-width: 768px){
@@ -344,12 +348,8 @@ main {
     width: 100%;
     height: 416px;
 }      
-   
-.hidden-second {
-    display: none;
-}
-   
-.content__text {
+
+.content__section{
     font-family: "TTLakes", sans-serif;
     color: #1B1C21;
     padding: 0;
@@ -383,7 +383,12 @@ main {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: -0.20000000298023224px;
-} 
+}
+
+.content__text{
+    height: 127px;
+    overflow: hidden;
+}
      
 } 
 
@@ -542,7 +547,7 @@ main {
         width: 100%;            
     }  
     
-    .content__text {
+    .content__section {
         font-family: "TTLakes", sans-serif;
         color: #1B1C21;
         padding: 0;
@@ -576,5 +581,10 @@ main {
         font-size: 16px;
         line-height: 24px;
         letter-spacing: -0.20000000298023224px;
-    }   
+    }  
+    
+    .content__text{
+        height: auto;
+        overflow: hidden;
+    }
 }
