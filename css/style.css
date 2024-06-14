@@ -87,6 +87,7 @@ main {
     display: block;
     background-color: #F8F8F8;
     width: 100%;
+    margin-left: 8px;
 }
 
 .title__highlight {
@@ -110,7 +111,7 @@ main {
     height: 40px;
     background-color: #41F6D7;
     border-radius: 2px;
-    margin: 0 0 0 -13px;
+    margin: 0 0 0 -21px;
 }
 
 .slide-menu {
@@ -480,6 +481,7 @@ main {
     .title {
         display: flex;
         background-color: #F8F8F8;
+        margin-left: 18px;
     }
             
     .title__highlight {
