@@ -1,68 +1,105 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/css/style.css">
-  <title>Сервисный центр CPS</title>
-</head>
-<body>
-<header class="header header-fist">
-    <div class="header__menu">
-      <div class="header__left-side left-side">
-        <button class="left-side__item"><img src="/icons/burger.svg" alt="Бургер"></button>
-        <div class="left-side__item--divider"></div>
-        <a class="left-side__item"><img src="/icons/Group.svg" alt="Logo CPS"></a>
-    </div>
-    <div class="header__center-side center-side">
-        <button class="center-side__item"><img src="/icons/call.svg" alt="Заказать звонок"></button>
-        <button class="center-side__item"><img src="/icons/chat.svg" alt="Написать в поддержку"></button>
-        <button class="center-side__item"><img src="/icons/profile.svg" alt="Профиль"></button>
-    </div>
-    <div class="header__right-side right-side right-side--divider">
-        <button class="right-side__item"><img src="/icons/repair.svg" alt="Статус ремонта"></button>
-        <button class="right-side__item"><img src="/icons/checkstatus.svg" alt="Оставить заявку"></button>
-    </div>
-  </div>
-</header>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../css/style.css" />
+		<title>Сервисный центр CPS</title>
+	</head>
+	<body>
+		<header class="header header-fist">
+			<div class="header__menu">
+				<div class="header__left-side left-side">
+					<button class="button">
+						<div class="button__icon button--burger"></div>
+					</button>
+					<a class="left-side__item">
+						<img src="/icons/Group.svg" alt="Logo CPS" />
+					</a>
+				</div>
+				<div class="header__center-side center-side">
+					<button class="button">
+						<div class="button__icon button--call"></div>
+					</button>
+					<button class="button">
+						<div class="button__icon button--chat"></div>
+					</button>
+					<button class="button">
+						<div class="button__icon button--profile"></div>
+					</button>
+				</div>
+				<div class="header__right-side right-side right-side--divider">
+					<button class="button">
+						<div class="button__icon button--repair"></div>
+					</button>
+					<button class="button">
+						<div class="button__icon button--checkstatus"></div>
+					</button>
+				</div>
+			</div>
+		</header>
 
-<main>
-  <header class="header">
-    <div class="header__right-side right-side">
-      <button class="right-side__item right-side__item--hiden"><img src="/icons/repair.svg" alt="Статус ремонта"></button>
-      <button class="right-side__item right-side__item--hiden"><img src="/icons/checkstatus.svg" alt="Оставить заявку"></button>
-    </div>
-    <article class="title">
-      <h1 class="title__text title--before">Услуги и сервисы</h1>
-    </article>
-  </header>
-  <nav class="slide-menu">
-      <div class="slide-menu__item"><a href="#" class="slide-menu__text">Ремонтируемые устройства</a></div>
-      <div class="slide-menu__item"><a href="#" class="slide-menu__text">Дополнительные услуги</a></div>
-      <div class="slide-menu__item"><a href="#" class="slide-menu__text">Цены на услуги</a></div>
-      <div class="slide-menu__item"><a href="#" class="slide-menu__text">Адреса сервисных центров</a></div>
-      <div class="slide-menu__item"><a href="#" class="slide-menu__text">Специальные цены</a></div>
-      <div class="slide-menu__item"><a href="#" class="slide-menu__text">Отзывы</a></div>
-  </nav>
-<article class="content">
-    <div class="content__section">
-      <div class="content__text">
-            <p class="text-fist">
-              Мы являемся авторизованным сервисным центром по ремонту техники Dell.Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
-            </p>
-            <p class="text-second">
-              Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера.
-              Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.
-            </p>
-      </div>
-      <div class="content__read-next read-next">
-            <button class="read-next__btn">
-              <span class="read-next__text">Читать далее</span>
-            </button>
-      </div>
-    </div>
-    <img src="/img/cps.png" alt="Лого CPS" class="content__image logo">
-</article>
-</main>
-</body>
+		<main>
+			<div class="wrapper">
+				<header class="header wrapper__header header-second">
+					<article class="title">
+						<h1 class="title__text title--before">Услуги и сервисы</h1>
+					</article>
+					<div class="header__right-side right-side">
+						<button class="button button--desktop">
+							<div class="button__text">Оставить заявку</div>
+							<div class="button__icon button--repair"></div>
+						</button>
+						<button class="button button--desktop">
+							<div class="button__text">Статус ремонта</div>
+							<div class="button__icon button--checkstatus"></div>
+						</button>
+					</div>
+				</header>
+				<nav class="slide-menu wrapper__slide-menu">
+					<ul class="slide-list">
+						<li class="slide-menu__item">
+							<a href="#" class="slide-menu__text">Ремонтируемые устройства</a>
+						</li>
+						<li class="slide-menu__item">
+							<a href="#" class="slide-menu__text">Дополнительные услуги</a>
+						</li>
+						<li class="slide-menu__item">
+							<a href="#" class="slide-menu__text">Цены на услуги</a>
+						</li>
+						<li class="slide-menu__item">
+							<a href="#" class="slide-menu__text">Адреса сервисных центров</a>
+						</li>
+						<li class="slide-menu__item">
+							<a href="#" class="slide-menu__text">Специальные цены</a>
+						</li>
+						<li class="slide-menu__item">
+							<a href="#" class="slide-menu__text">Отзывы</a>
+						</li>
+					</ul>
+				</nav>
+				<article class="content wrapper__content">
+					<div class="content__section">
+						<div class="content__text">
+							<p class="text-fist">
+								Мы являемся авторизованным сервисным центром по ремонту техники
+								Dell.Только у нас вы можете отремонтировать свой ноутбук Dell с
+								официальной гарантией производителя.
+							</p>
+							<p class="text-second">
+								Мы успешно работаем с 1992 года и заслужили репутацию надежного
+								партнера. Мы гордимся тем, что к нам обращаются по рекомендациям
+								и, в свою очередь, советуют нас родным и близким.
+							</p>
+						</div>
+						<button class="content__read-next read-next">
+							<div class="read__icon"></div>
+							<div class="read-next__text">Читать далее</div>
+						</button>
+					</div>
+					<img src="/img/cps.png" alt="Лого CPS" class="content__image logo" />
+				</article>
+			</div>
+		</main>
+	</body>
 </html>
