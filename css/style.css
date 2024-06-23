@@ -272,7 +272,7 @@ li {
 		gap: 16px;
 	}
 
-	.left-side__item::before {
+	.left-side::before {
 		display: block;
 		content: '';
 		width: 3px;
