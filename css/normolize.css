@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+	background-color: inherit;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+ul,
+ol,
+li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+}
+
+button {
+	border: none;
+	background: none;
+	padding: 0;
+}
+
+html,
+body {
+	width: 100%;
+	height: auto;
+	line-height: 1;
+	font-size: 16px;
+	color: #000;
+	background-color: inherit;
+	background-color: #f8f8f8;
+	font-family: 'TT Lakes', 'Arial', sans-serif;
+}
+
+header {
+	width: 100%;
+}
