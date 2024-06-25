@@ -25,30 +25,30 @@
 	height: 40px;
 }
 
-.smooth-animation:hover {
+.smooth--animation:hover {
 	filter: opacity(50%);
 	transition: filter 0.5s ease;
 }
 
-.btn-burger {
+.btn--burger {
 	background-image: url(/icons/burger.svg);
 }
 
-.btn-search {
+.btn--search {
 	background-image: url(/icons/search.svg);
 }
 
-.btn-copy {
+.btn--copy {
 	background-image: url(/icons/copy.svg);
 	margin-right: 16px;
 }
 
-.btn-chat {
+.btn--chat {
 	background-image: url(/icons/chat.svg);
 	margin-right: 16px;
 }
 
-.btn-profile {
+.btn--profile {
 	background-image: url(/icons/profile.svg);
 }
 
@@ -81,7 +81,7 @@
 	margin-right: 78.27px;
 }
 
-.btn-burger {
+.btn--burger {
 	margin-right: 16.73px;
 }
 
