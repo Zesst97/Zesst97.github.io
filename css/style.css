@@ -17,11 +17,17 @@
 	font-weight: 400;
 }
 
-.button {
+.footer__btn-round,
+.header__btn-round {
 	background: #ff3e79;
 	border-radius: 50%;
 	width: 40px;
 	height: 40px;
+}
+
+.smooth-animation:hover {
+	filter: opacity(50%);
+	transition: filter 0.5s ease;
 }
 
 .btn-burger {
@@ -46,9 +52,9 @@
 	background-image: url(/icons/profile.svg);
 }
 
-.wrraper {
+.aside {
 	width: 320px;
-	height: 1024px;
+	height: 1056px;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -120,8 +126,6 @@
 
 .nav-link:hover {
 	color: #7e7e82;
-	transition-duration: 1s;
-
 }
 
 .footer {
@@ -133,11 +137,15 @@
 	margin-bottom: 16px;
 }
 
-.footer__link {
+.footer__mail {
 	margin-bottom: 12px;
 }
 
-.link__item {
+.footer__number {
+	margin-bottom: 24px;
+}
+
+.footer__mail-item {
 	font-family: 'TT Lakes', 'Arial', sans-serif;
 	font-size: 16px;
 	line-height: 24px;
@@ -145,12 +153,7 @@
 	text-align: left;
 }
 
-.footer__number {
-	margin-bottom: 40px;
-	font-family: 'TT Lakes', 'Arial', sans-serif;
-}
-
-.number__item {
+.footer__number-item {
 	font-family: 'TT Lakes', 'Arial', sans-serif;
 	font-size: 24px;
 	line-height: 32px;
@@ -159,7 +162,7 @@
 	font-weight: 700;
 }
 
-.footer__button-language {
+.footer__btn-language {
 	font-family: 'TT Lakes', 'Arial', sans-serif;
 	font-size: 16px;
 	line-height: 24px;
@@ -167,10 +170,10 @@
 	margin-right: 7px;
 }
 
-.footer__button-language:active {
+.footer__btn-language:active {
 	color: #7e7e82;
 }
 
-.footer__button-language:last-child {
+.footer__btn-language:last-child {
 	margin-right: 0;
 }
