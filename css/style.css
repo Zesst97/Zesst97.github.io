@@ -17,44 +17,44 @@
 	font-weight: 400;
 }
 
-.footer__btn-round,
-.header__btn-round {
+.round-icon {
 	background: #ff3e79;
 	border-radius: 50%;
 	width: 40px;
 	height: 40px;
 }
 
-.smooth--animation:hover {
+.round-icon:hover {
 	filter: opacity(50%);
 	transition: filter 0.5s ease;
 }
 
-.btn--burger {
+.round-icon_btn-burger {
 	background-image: url(/icons/burger.svg);
+	margin-right: 16.73px;
 }
 
-.btn--search {
+.round-icon_btn-search {
 	background-image: url(/icons/search.svg);
 }
 
-.btn--copy {
+.round-icon_btn-copy {
 	background-image: url(/icons/copy.svg);
 	margin-right: 16px;
 }
 
-.btn--chat {
+.round-icon_btn-chat {
 	background-image: url(/icons/chat.svg);
 	margin-right: 16px;
 }
 
-.btn--profile {
+.round-icon_btn-profile {
 	background-image: url(/icons/profile.svg);
 }
 
 .aside {
 	width: 320px;
-	height: 1056px;
+	height: auto;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -81,14 +81,10 @@
 	margin-right: 78.27px;
 }
 
-.btn--burger {
-	margin-right: 16.73px;
-}
-
 .main {
 	width: 69.375%;
 	padding-left: 24px;
-	margin-bottom: 268px;
+	margin-bottom: 220px;
 }
 
 .main__nav-menu {
@@ -122,6 +118,7 @@
 .nav-link {
 	text-decoration: none;
 	color: #1b1c21;
+	display: block;
 }
 
 .nav-link:hover {
@@ -133,11 +130,8 @@
 	padding: 0 0 32px 24px;
 }
 
-.footer__icons {
-	margin-bottom: 16px;
-}
-
 .footer__mail {
+	margin-top: 16px;
 	margin-bottom: 12px;
 }
 
@@ -170,7 +164,7 @@
 	margin-right: 7px;
 }
 
-.footer__btn-language:active {
+.footer__btn-language_active:active {
 	color: #7e7e82;
 }
 
