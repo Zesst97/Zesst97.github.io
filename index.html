@@ -4,102 +4,76 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="../css/style.css" />
-		<title>Сервисный центр CPS</title>
+		<link rel="stylesheet" href="../css/normolize.css" />
+		<title>Боковое меню CPS</title>
 	</head>
 	<body>
-		<header class="header header-fist">
-			<div class="header__menu">
-				<div class="header__left-side left-side">
-					<button class="button">
-						<span class="button__icon button--burger"></span>
-					</button>
-					<a class="left-side__item">
-						<img src="/icons/Group.svg" alt="Logo CPS" />
+		<aside class="aside">
+			<header class="header">
+				<div class="header__menu">
+					<button class="round-icon round-icon--btn-burger"></button>
+					<a class="header__link">
+						<img src="icons/Group.svg" alt="CPS" />
 					</a>
+					<button class="round-icon round-icon--btn-search"></button>
 				</div>
-				<div class="header__center-side center-side">
-					<button class="button">
-						<span class="button__icon button--call"></span>
-					</button>
-					<button class="button">
-						<span class="button__icon button--chat"></span>
-					</button>
-					<button class="button">
-						<span class="button__icon button--profile"></span>
-					</button>
-				</div>
-				<div class="header__right-side right-side right-side--divider">
-					<button class="button">
-						<span class="button__icon button--repair"></span>
-					</button>
-					<button class="button">
-						<span class="button__icon button--checkstatus"></span>
-					</button>
-				</div>
-			</div>
-		</header>
-
-		<main>
-			<div class="wrapper">
-				<header class="header wrapper__header header-second">
-					<article class="title">
-						<h1 class="title__text title--before">Услуги и сервисы</h1>
-					</article>
-					<div class="header__right-side right-side">
-						<button class="button button--desktop">
-							<span class="button__text">Оставить заявку</span>
-							<span class="button__icon button--repair"></span>
-						</button>
-						<button class="button button--desktop">
-							<span class="button__text">Статус ремонта</span>
-							<span class="button__icon button--checkstatus"></span>
-						</button>
-					</div>
-				</header>
-				<nav class="slide-menu wrapper__slide-menu">
-					<ul class="slide-list">
-						<li class="slide-menu__item">
-							<a href="#" class="slide-menu__text">Ремонтируемые устройства</a>
+			</header>
+			<div class="main">
+				<nav class="main__nav-menu">
+					<ul class="main__list">
+						<li class="nav__item">
+							<a class="nav-link" href="#">Ремононт техники</a>
 						</li>
-						<li class="slide-menu__item">
-							<a href="#" class="slide-menu__text">Дополнительные услуги</a>
+						<li class="nav__item">
+							<a class="nav-link" href="#">Услуги и сервисы</a>
 						</li>
-						<li class="slide-menu__item">
-							<a href="#" class="slide-menu__text">Цены на услуги</a>
+						<li class="nav__item">
+							<a class="nav-link" href="#">Корпаративным клиентам</a>
 						</li>
-						<li class="slide-menu__item">
-							<a href="#" class="slide-menu__text">Адреса сервисных центров</a>
+						<li class="nav__item">
+							<a class="nav-link" href="#">Продавцам техники</a>
 						</li>
-						<li class="slide-menu__item">
-							<a href="#" class="slide-menu__text">Специальные цены</a>
+						<li class="nav__item">
+							<a class="nav-link" href="#">Партнёрам</a>
 						</li>
-						<li class="slide-menu__item">
-							<a href="#" class="slide-menu__text">Отзывы</a>
+						<li class="nav__item">
+							<a class="nav-link" href="#">Производителям</a>
+						</li>
+						<li class="nav__item">
+							<a class="nav-link" href="#">Наши сервисные центры</a>
+						</li>
+						<li class="nav__item">
+							<a class="nav-link" href="#">Контакты</a>
 						</li>
 					</ul>
 				</nav>
-				<article class="content wrapper__content">
-					<div class="content__section">
-						<div class="content__text">
-							<p class="text-fist">
-								Мы являемся авторизованным сервисным центром по ремонту техники
-								Dell.Только у нас вы можете отремонтировать свой ноутбук Dell с
-								официальной гарантией производителя.
-							</p>
-							<p class="text-second">
-								Мы успешно работаем с 1992 года и заслужили репутацию надежного
-								партнера. Мы гордимся тем, что к нам обращаются по рекомендациям
-								и, в свою очередь, советуют нас родным и близким.
-							</p>
-						</div>
-						<button class="content__read-next read-next">
-							<span class="read__icon"></span>
-							<span class="read-next__text">Читать далее</span>
-						</button>
-					</div>
-					<img src="/img/cps.png" alt="Лого CPS" class="content__image logo" />
-				</article>
 			</div>
-		</main>
+			<footer class="footer">
+				<div class="footer__contacts">
+					<div class="footer__icons">
+						<button class="round-icon round-icon--btn-copy"></button>
+						<button class="round-icon round-icon--btn-chat"></button>
+						<button class="round-icon round-icon--btn-profile"></button>
+					</div>
+					<div class="footer__mail">
+						<a class="footer__mail-item" href="mailto:mail@cps.com">
+							mail@cps.com
+						</a>
+					</div>
+					<div class="footer__number">
+						<a class="footer__number-item" href="tel:8 800 890 8900">
+							8 800 890 8900
+						</a>
+					</div>
+				</div>
+				<div class="footer__icons">
+					<button class="footer__btn-language footer__btn-language--active">
+						RU
+					</button>
+					<button class="footer__btn-language">EN</button>
+					<button class="footer__btn-language">CH</button>
+				</div>
+			</footer>
+		</aside>
 	</body>
 </html>
