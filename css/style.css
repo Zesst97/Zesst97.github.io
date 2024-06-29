@@ -121,18 +121,17 @@
 	width: 100%;
 }
 
-.nav__item:hover::before {
+.nav-link:hover::before {
 	content: '';
 	display: block;
 	width: 8px;
 	height: 32px;
-	margin-top: -9px;
-	margin-left: -28px;
-	margin-right: 20px;
 	background-color: #41f6d7;
 	border-radius: 5px;
+	position: absolute;
+	left: -28px;
+	top: -6px;
 }
-/*сделать через позишн nav__item */
 
 .nav-link:hover {
 	color: #7e7e82;
