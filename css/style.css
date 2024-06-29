@@ -56,7 +56,7 @@
 	display: flex;
 	flex-direction: column;
 	width: 320px;
-	height: auto;
+	min-height: 100%;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -86,8 +86,8 @@
 }
 
 .main {
+	flex-grow: 1;
 	padding-left: 24px;
-	margin-bottom: 250px;
 }
 
 .main__nav-menu {
@@ -101,10 +101,15 @@
 	display: flex;
 	height: 24px;
 	width: 100%;
+	position: relative;
 }
 
 .nav-item:last-child {
 	margin-bottom: 0;
+}
+
+.nav-link:last-child {
+	height: 24px;
 }
 
 .nav-link {
@@ -127,6 +132,7 @@
 	background-color: #41f6d7;
 	border-radius: 5px;
 }
+/*сделать через позишн nav__item */
 
 .nav-link:hover {
 	color: #7e7e82;
