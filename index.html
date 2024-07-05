@@ -1,105 +1,89 @@
 <!DOCTYPE html>
 <html lang="ru">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="../css/style.css" />
-		<title>Сервисный центр CPS</title>
-	</head>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+	<script src="/script.js" defer></script>
+	<link rel="stylesheet" href="/swiper/swiper-bundle.min.css">
+	<link rel="stylesheet" href="/css/normalize.css">
+	<link rel="stylesheet" href="/css/style.css">
+	<title>Нижнее меню CPS</title>
+</head>
 	<body>
-		<header class="header header-fist">
-			<div class="header__menu">
-				<div class="header__left-side left-side">
-					<button class="button">
-						<span class="button__icon button--burger"></span>
-					</button>
-					<a class="left-side__item">
-						<img src="/icons/Group.svg" alt="Logo CPS" />
-					</a>
-				</div>
-				<div class="header__center-side center-side">
-					<button class="button">
-						<span class="button__icon button--call"></span>
-					</button>
-					<button class="button">
-						<span class="button__icon button--chat"></span>
-					</button>
-					<button class="button">
-						<span class="button__icon button--profile"></span>
-					</button>
-				</div>
-				<div class="header__right-side right-side right-side--divider">
-					<button class="button">
-						<span class="button__icon button--repair"></span>
-					</button>
-					<button class="button">
-						<span class="button__icon button--checkstatus"></span>
-					</button>
-				</div>
-			</div>
-		</header>
-
-		<main>
-			<div class="wrapper">
-				<header class="header wrapper__header header-second">
-					<article class="title">
-						<h1 class="title__text title--before">Услуги и сервисы</h1>
-					</article>
-					<div class="header__right-side right-side">
-						<button class="button button--desktop">
-							<span class="button__text">Оставить заявку</span>
-							<span class="button__icon button--repair"></span>
-						</button>
-						<button class="button button--desktop">
-							<span class="button__text">Статус ремонта</span>
-							<span class="button__icon button--checkstatus"></span>
-						</button>
-					</div>
+			<section class="brand"> 
+				<header class="header">
+					<h1 class="header__title">Ремонт техники различных брендов</h1>
 				</header>
-				<nav class="slide-menu wrapper__slide-menu">
-					<ul class="slide-list">
-						<li class="slide-menu__item">
-							<a href="#" class="slide-menu__text">Ремонтируемые устройства</a>
+				<nav class="swiper nav-menu">
+					<ul class="swiper-wrapper list-brand">
+						<li class="swiper-slide list-brand__item">
+							<a href="#" class="list-brand__link">
+								<img src="/image/lenova.png" alt="Лого lenova">
+							</a>
 						</li>
-						<li class="slide-menu__item">
-							<a href="#" class="slide-menu__text">Дополнительные услуги</a>
+						<li class="swiper-slide list-brand__item">
+							<a href="#" class="list-brand__link">
+								<img src="/image/samsung.png" alt="Лого samsung">
+							</a>
 						</li>
-						<li class="slide-menu__item">
-							<a href="#" class="slide-menu__text">Цены на услуги</a>
+						<li class="swiper-slide list-brand__item">
+							<a href="#" class="list-brand__link">
+								<img src="/image/aple.png" alt="Лого aple">
+							</a>
 						</li>
-						<li class="slide-menu__item">
-							<a href="#" class="slide-menu__text">Адреса сервисных центров</a>
+						<li class="swiper-slide list-brand__item">
+							<a href="#" class="list-brand__link">
+								<img src="/image/viewSonic.png" alt="Лого viewSonic">
+							</a>
 						</li>
-						<li class="slide-menu__item">
-							<a href="#" class="slide-menu__text">Специальные цены</a>
+						<li class="swiper-slide list-brand__item">
+							<a href="#" class="list-brand__link">
+								<img src="/image/bosch.png" alt="Лого bosch">
+							</a>
 						</li>
-						<li class="slide-menu__item">
-							<a href="#" class="slide-menu__text">Отзывы</a>
+						<li class="swiper-slide list-brand__item">
+							<a href="#" class="list-brand__link">
+								<img src="/image/hp.png" alt="Лого hp">
+							</a>
+						</li>
+						<li class="swiper-slide list-brand__item">
+							<a href="#" class="list-brand__link">
+								<img src="/image/acer.png" alt="Лого acer">
+							</a>
+						</li>
+						<li class="swiper-slide list-brand__item">
+							<a href="#" class="list-brand__link">
+								<img src="/image/sony.png" alt="Лого sony">
+							</a>
+						</li>
+						<li class="swiper-slide list-brand__item">
+							<a href="/" class="list-brand__link">
+									<img src="/image/lenova.png" alt="Логотип lenova">
+							</a>
+						</li>
+						<li class="swiper-slide list-brand__item">
+							<a href="/" class="list-brand__link">
+									<img src="/image/samsung.png" alt="Логотип samsung">
+							</a>
+						</li>
+						<li class="swiper-slide list-brand__item">
+							<a href="/" class="list-brand__link">
+									<img src="/image/bosch.png" alt="Логотип bosch">
+							</a>
+						</li>
+						<li class="swiper-slide list-brand__item">
+							<a href="/" class="list-brand__link">
+									<img src="/image/hp.png" alt="Логотип hp">
+							</a>
 						</li>
 					</ul>
+					<div class="swiper-pagination"></div>
 				</nav>
-				<article class="content wrapper__content">
-					<div class="content__section">
-						<div class="content__text">
-							<p class="text-fist">
-								Мы являемся авторизованным сервисным центром по ремонту техники
-								Dell.Только у нас вы можете отремонтировать свой ноутбук Dell с
-								официальной гарантией производителя.
-							</p>
-							<p class="text-second">
-								Мы успешно работаем с 1992 года и заслужили репутацию надежного
-								партнера. Мы гордимся тем, что к нам обращаются по рекомендациям
-								и, в свою очередь, советуют нас родным и близким.
-							</p>
-						</div>
-						<button class="content__read-next read-next">
-							<span class="read__icon"></span>
-							<span class="read-next__text">Читать далее</span>
-						</button>
-					</div>
-					<img src="/img/cps.png" alt="Лого CPS" class="content__image logo" />
-				</article>
-			</div>
-		</main>
+				<button class="show-more-button">
+					<span class="show-more-button__text">Показать все</span>
+				</button>
+			</section>
 	</body>
 </html>
