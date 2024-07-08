@@ -42,7 +42,7 @@ li {
 	list-style-type: none;
 }
 
-.button__icon {
+.round-icon {
 	width: 40px;
 	height: 40px;
 	border-radius: 50%;
@@ -56,10 +56,6 @@ li {
 	gap: 8px;
 	font-size: 16px;
 	white-space: nowrap;
-}
-
-.button--desktop {
-	display: none;
 }
 
 .button--burger {
@@ -84,18 +80,6 @@ li {
 
 .button--checkstatus {
 	background-image: url(/icons/checkstatus.svg);
-}
-
-.wrapper__header {
-	margin-top: 24px;
-}
-
-.wrapper__slide-menu {
-	margin-top: 24px;
-}
-
-.wrapper__content {
-	margin-top: 24px;
 }
 
 .header__menu {
@@ -134,6 +118,22 @@ li {
 	border-radius: 1px;
 	background-color: #eaeaea;
 	margin-left: 16px;
+}
+
+.button--desktop {
+	display: none;
+}
+
+.wrapper__header {
+	margin-top: 24px;
+}
+
+.wrapper__slide-menu {
+	margin-top: 24px;
+}
+
+.wrapper__content {
+	margin-top: 24px;
 }
 
 .title {
